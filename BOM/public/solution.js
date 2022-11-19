@@ -11,5 +11,5 @@ export default (href) => {
     const { userAgent } = window.navigator;
     const [agentName] = userAgent.split(' ');
     return `${agentName} ${window.location.href}`;
-}
+};
 // END

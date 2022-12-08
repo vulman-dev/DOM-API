@@ -21,7 +21,6 @@ export default () => {
     const switchPlayer = () => {
         currentSymbol = currentSymbol === 'x' ? 'o' : 'x';
     };
-
     tableEl.addEventListener('click', (element) => {
         if (element.target.textContent === 's') {
             element.target.textContent = currentSymbol;
